@@ -15,6 +15,7 @@ This project aims to identify optimal locations for installing public trash bins
 - Cafés: size and coordinates
 - District-level waste processing volume
 - Floating population ratio by district
++) Data link url
 
 ---
 
@@ -33,4 +34,5 @@ Greedy MCLP :
 Ensemble : 
 ```
 
+## Visualization Result
 
