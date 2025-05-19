@@ -34,6 +34,8 @@ Greedy MCLP :
 Ensemble : 
 ```
 
+---
+
 ## Visualization Result
 ![Image](https://github.com/user-attachments/assets/953916f0-4295-431e-914f-2c36f101a585)
 ![Image](https://github.com/user-attachments/assets/773698ac-83aa-4f4e-a847-6b92f5429134)
