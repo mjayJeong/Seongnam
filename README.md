@@ -1,7 +1,5 @@
 # 2025 Seongnam Public Data Analysis Contest
 
----
-
 ## 📌 Project Overview
 
 This project aims to identify optimal locations for installing public trash bins in Seongnam City through spatial analysis using public data. By incorporating factors such as floating population, waste generation, and lifestyle zones, the goal is to develop a data-driven strategy that balances **urban aesthetics** and **policy efficiency**.
