@@ -33,10 +33,10 @@ This project aims to identify optimal locations for installing public trash bins
 
 ## 📈 Methodology Summary
 ```
-MCLP (Maximum Coverage Location Problem): Finds the best p locations to **maximize demand coverage** within a fixed radius.
-K-means Clustering: Groups dense demand points and places bins at **cluster centers**.
-Greedy MCLP: Quickly selects locations by **iteratively adding the most effective** candidate.
-Ensemble: Combines all three methods to choose **overlapping results for higher stability**.
+MCLP (Maximum Coverage Location Problem): Finds the best p locations to maximize demand coverage within a fixed radius.
+K-means Clustering: Groups dense demand points and places bins at cluster centers.
+Greedy MCLP: Quickly selects locations by iteratively adding the most effective candidate.
+Ensemble: Combines all three methods to choose overlapping results for higher stability.
 ```
 
 ---
