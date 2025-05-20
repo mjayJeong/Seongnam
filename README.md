@@ -8,16 +8,21 @@ This project aims to identify optimal locations for installing public trash bins
 
 ## 🧩 Data Sources
 
-- Existing trash bin locations in Seongnam
-- Bus stops: location, number of routes, transfer times
-- Subway stations: boarding/alighting passenger counts
-- Parks: size and coordinates
-- Cafés: size and coordinates
-- District-level waste processing volume
-- Floating population ratio by district
-+) Data link url
+| Dataset Name                                   | Source                                                                 |
+|------------------------------------------------|------------------------------------------------------------------------|
+| Trash bin installation status in Seongnam      | [data.go.kr](https://www.data.go.kr)                                   |
+| Bus stops in Seongnam                          | [data.go.kr](https://www.data.go.kr)                                   |
+| Public transit transfer times                  | [Gyeonggi Transport Center](https://gits.gg.go.kr)                     |
+| Number of routes per stop                      | [Gyeonggi Transport Center](https://gits.gg.go.kr)                     |
+| Subway station boarding/alighting data         | [Seoul Open Data Plaza](https://data.seoul.go.kr)                      |
+| Subway station info                            | [Seoul Open Data Plaza](https://data.seoul.go.kr)                      |
+| Urban park information                         | [Gyeonggi Data Dream](https://data.gg.go.kr)                           |
+| Café locations and size                        | [Gyeonggi Data Dream](https://data.gg.go.kr)                           |
+| Waste processing volume by district            | [Seongnam Data Net](https://data.seongnam.go.kr)                       |
+| Floating population statistics                 | [Gyeonggi Data Analysis Portal](https://insight.gg.go.kr)             |
 
 ---
+
 
 ## 🛠 Tech Stack
 
@@ -36,8 +41,12 @@ Ensemble :
 
 ---
 
-## Visualization Result
-![Image](https://github.com/user-attachments/assets/953916f0-4295-431e-914f-2c36f101a585)
-![Image](https://github.com/user-attachments/assets/773698ac-83aa-4f4e-a847-6b92f5429134)
-![Image](https://github.com/user-attachments/assets/adb134ed-4758-4f5f-88c8-3fb3f64b98f1)
-![Image](https://github.com/user-attachments/assets/2e36d3aa-c077-48c0-8252-3d906f0e2b24)
+## 📊 Visualization Result
+
+| ![Map1](https://github.com/user-attachments/assets/953916f0-4295-431e-914f-2c36f101a585) | ![Map2](https://github.com/user-attachments/assets/773698ac-83aa-4f4e-a847-6b92f5429134) |
+|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| *Final Candidate Sites: Sujeong-gu*                                                     | *Final Candidate Sites: Jungwon-gu*                                                       |
+
+| ![Map3](https://github.com/user-attachments/assets/adb134ed-4758-4f5f-88c8-3fb3f64b98f1) | ![Map4](https://github.com/user-attachments/assets/2e36d3aa-c077-48c0-8252-3d906f0e2b24)  |
+|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| *Final Candidate Sites: Bundang-gu*                                                     | *Final Candidate Sites: Pangyo*                                                           |
