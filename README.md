@@ -19,7 +19,7 @@ This project aims to identify optimal locations for installing public trash bins
 | Urban park information                         | [Gyeonggi Data Dream](https://data.gg.go.kr)                           |
 | Café locations and size                        | [Gyeonggi Data Dream](https://data.gg.go.kr)                           |
 | Waste processing volume by district            | [Seongnam Data Net](https://data.seongnam.go.kr)                       |
-| Floating population statistics                 | [Gyeonggi Data Analysis Portal](https://insight.gg.go.kr)             |
+| Floating population statistics                 | [Gyeonggi Data Analysis Portal](https://insight.gg.go.kr)              |
 
 ---
 
@@ -33,10 +33,10 @@ This project aims to identify optimal locations for installing public trash bins
 
 ## 📈 Methodology Summary
 ```
-MCLP (Maximum Coverage Location Problem) : 
-K-means Clustering : 
-Greedy MCLP :
-Ensemble : 
+MCLP (Maximum Coverage Location Problem): Finds the best p locations to **maximize demand coverage** within a fixed radius.
+K-means Clustering: Groups dense demand points and places bins at **cluster centers**.
+Greedy MCLP: Quickly selects locations by **iteratively adding the most effective** candidate.
+Ensemble: Combines all three methods to choose **overlapping results for higher stability**.
 ```
 
 ---
