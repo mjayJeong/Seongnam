@@ -11,7 +11,7 @@ def load_csv(path):
     df = pd.read_csv(path, encoding='cp949')
     return df.to_dict(orient='records') 
 
-# 파일 이름, 경로 수정하세여 (json 파일 쓸수도 있어서 json import 해놓음)
+# 파일 이름, 경로 수정 (json 파일 쓸수도 있어서 json import 해놓음)
 mclp_results = load_csv("mclp_installed_bins.csv")
 pmedian_results = load_csv("greedy_mclp_installed_bins.csv")
 kmeans_results = load_csv("k-means_installed_bins.csv")
@@ -21,7 +21,7 @@ kmeans_results = load_csv("k-means_installed_bins.csv")
 total_models = [mclp_results, pmedian_results, kmeans_results]
 vote_counter = []
 
-# column 이름에 맞게 수정하세
+# column 이름에 맞게 수정
 for model in total_models:
     for place in model:
         matched = False
@@ -47,7 +47,7 @@ final_locations = [loc for loc in vote_counter if loc["votes"] >= 2]
 print(f"total count : {len(final_locations)}")
 
 
-# 지도 중심은 알아서 잡으시고
+# 지도 중심
 if final_locations:
     center_lat = sum([l["위도"] for l in final_locations]) / len(final_locations)
     center_lon = sum([l["경도"] for l in final_locations]) / len(final_locations)
@@ -63,6 +63,6 @@ for loc in final_locations:
         icon=folium.Icon(color='green', icon='trash', prefix='fa')
     ).add_to(m)
 
-# 결과물 html로 저장할거면
+# 결과물 html로 저장
 m.save("ensemble_result.html")
 # m
