@@ -44,7 +44,7 @@ Ensemble: Combines all three methods to choose overlapping results for higher st
 ## 📊 Visualization Result
 | ![Map2](https://github.com/user-attachments/assets/773698ac-83aa-4f4e-a847-6b92f5429134) | ![Map3](https://github.com/user-attachments/assets/adb134ed-4758-4f5f-88c8-3fb3f64b98f1) |
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| *Final Candidate Sites: Sujeong-gu*                                                     | *Final Candidate Sites: Jungwon-gu*                                                       |
+| *Final Candidate Sites: **Sujeong-gu***                                                     | *Final Candidate Sites: Jungwon-gu*                                                       |
 
 | ![Map4](https://github.com/user-attachments/assets/2e36d3aa-c077-48c0-8252-3d906f0e2b24) | ![Map1](https://github.com/user-attachments/assets/953916f0-4295-431e-914f-2c36f101a585)  |
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
